@@ -44,7 +44,7 @@ function Header() {
             <Link to= '/Checkout'>
             <div className= "Cart"> 
             <span>
-            <strong> Cart </strong> {0} <ShoppingBasketIcon />
+            <strong>  Cart </strong> {0} <ShoppingBasketIcon />
             </span>
             </div>
             </Link>
