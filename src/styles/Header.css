@@ -1,0 +1,61 @@
+.Header {
+    background-color: #00004d;
+    color: #FAFF4F;
+    font-size: large;
+    max-height: 250px;
+}
+
+.Header__Content {
+    display: flex;  
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.Header__Logo img {
+    height: 90px;
+    width: 200px;
+}
+
+.Search__Feild input {
+    padding: 7px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    min-width: 300px;   
+}
+
+.Search__Icon{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 3px;
+}
+
+.Header__Right {
+    display: flex;  
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.User__Login {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.Returns__Orders {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.Cart {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Cart span {
+    color: #FAFF4F;
+    text-decoration: none;
+}

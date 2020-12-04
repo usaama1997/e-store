@@ -1,0 +1,32 @@
+.Product {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+.Product__Info{
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Product__Image > img {
+    height: 300px;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+.Product__Price{
+    margin-bottom: 10px;
+}
+
+.Product__Ratings{
+    margin-bottom: 10px;
+}
+
+.Product__Cart > button {
+    background-color: #ffd04f;
+    color: #00004D;
+}
